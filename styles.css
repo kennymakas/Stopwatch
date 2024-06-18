@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+
+}
+body{
+    background-color: black;
+}
+
+.stopwatch{
+    background-color: rgb(255, 204, 127);
+    max-width: 50% ;
+    padding: 0px;
+    margin: 200px auto;
+   text-align: center;
+}
+#header{
+    padding: 20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+#time{
+    padding: 20px;
+}
+#buttons{
+    padding: 20px;
+    text-align: center;
+}
+#buttons button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-transform: capitalize;
+    color: red;
+    font-size: larger;
+}
+@media only screen and (max-width: 800px) {
+    body{
+        max-width:0 auto;
+        background-color: navy;
+    }
+    #buttons button{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 150px;
+        text-transform: capitalize;
+        color: red;
+        font-size: larger;
+    }
+}
